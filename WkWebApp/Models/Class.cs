@@ -21,6 +21,7 @@ namespace WkWebApp.Models
         [Display(Name = "Year Of Class")]
         public int Year { get; set; }
 
+        [DataType(DataType.DateTime)]
         [Display(Name = "Data Of Creation")]
         public DateTime DateOfCreation { get; set; }
 

@@ -17,7 +17,8 @@ namespace WkWebApp.Models
         [Display(Name = "Class Name")]
         public string SubjectName { get; set; }
 
-        [Display(Name = "Is Active")]
+        [DataType(DataType.DateTime)]
+        [Display(Name = "Date Of Creation")]
         public DateTime DateOfCreation { get; set; }
 
         public List<Test> Tests { get; set; }

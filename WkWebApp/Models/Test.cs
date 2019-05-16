@@ -28,6 +28,7 @@ namespace WkWebApp.Models
         [Display(Name = "Note")]
         public string Note { get; set; }
 
+        [DataType(DataType.DateTime)]
         [Display(Name = "Data Of Creation")]
         public DateTime DateOfCreation { get; set; }
         
